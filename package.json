@@ -1,0 +1,20 @@
+{
+  "name": "some_projec_on_backend",
+  "version": "1.0.0",
+  "description": "learn about backend stuff",
+  "license": "ISC",
+  "author": "thats_me",
+  "type": "module",
+  "main": "server.bun.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
